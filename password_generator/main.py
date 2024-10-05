@@ -3,7 +3,7 @@ import string
 
 
 def generated_password(characters):
-    alle_zeichen = string.ascii_letters + string.digits + string.punctuation
+    alle_zeichen = string.ascii_letters + string.digits
     password = ""
     for _ in range(characters):
         password_stelle = random.randint(0, len(alle_zeichen)-1)
